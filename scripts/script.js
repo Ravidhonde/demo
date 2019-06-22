@@ -43,7 +43,7 @@ let client = AgoraRTC.createClient({
 
 // Client Setup
 // Defines a client for Real Time Communication
-client.init("019304ec2f234cb6b3d4f3871c8517dc",() => console.log("AgoraRTC client initialized") ,handleFail);
+client.init("4b5ee2b3ecab4cc8bb070045695432bb",() => console.log("AgoraRTC client initialized") ,handleFail);
 
 // The client joins the channel
 client.join(null,"any-channel",null, (uid)=>{
