@@ -51,9 +51,9 @@ client.join(null,"any-channel",null, (uid)=>{
     // Stream object associated with your web cam is initialized
     let localStream = AgoraRTC.createStream({
         streamID: uid,
-        audio: False,
-        video: False,
-        screen: True
+        audio: True,
+        video: True,
+        screen: False
     });
 
     // Associates the stream to the client
